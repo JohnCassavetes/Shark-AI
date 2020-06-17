@@ -22,4 +22,4 @@ Please make sure to update tests as appropriate. 👌
 📢 Help spread the word!!!
 
 ## License
-✔️ The best license. [MIT](https://github.com/jeremygautama/ios-password-app/blob/master/LICENSE.md) License.
+✔️ The best license. [MIT](https://github.com/jeremygautama/IOS-Ai/blob/master/LICENSE.md) License.
