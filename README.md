@@ -1,6 +1,6 @@
-# Double AI
+# 🦈 The name is Shark. 
 
-📱 🕺🕺2 AI App in one go. 
+📱 🌊 2 AI App in one go. 
 - 📷🌇 Image Detection (Resnet50) 
 
 - 7️⃣✏️ Number Drawing (MNISTClassifier)
