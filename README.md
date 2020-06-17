@@ -1,4 +1,5 @@
-#Double AI
+# Double AI
+
 📱 🕺🕺2 AI App in one go. 
 - 📷🌇 Image Detection (Resnet50) 
 
