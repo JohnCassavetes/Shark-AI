@@ -3,7 +3,7 @@
 📱 🦈 2 AI App in one go. 
 - 🌇 Image Detection (Resnet50) 
 
-- ✏️ Number Drawing (MNISTClassifier)
+- ✏️ Number Detection (MNISTClassifier)
 
 ## Installation
 The only thing you need to know is that, you don't need to install any .mlmodels. But if you do, go ahead and check out [Apple's Machine Learning Models](https://developer.apple.com/machine-learning/models/).
