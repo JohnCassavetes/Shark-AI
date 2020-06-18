@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		003BE39A248FCC1E00FD95E1 /* AI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		003BE39A248FCC1E00FD95E1 /* Shark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		003BE39D248FCC1E00FD95E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		003BE39F248FCC1E00FD95E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		003BE3A4248FCC1E00FD95E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		003BE39B248FCC1E00FD95E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				003BE39A248FCC1E00FD95E1 /* AI App.app */,
+				003BE39A248FCC1E00FD95E1 /* Shark.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +115,7 @@
 			);
 			name = "AI App";
 			productName = "AI App";
-			productReference = 003BE39A248FCC1E00FD95E1 /* AI App.app */;
+			productReference = 003BE39A248FCC1E00FD95E1 /* Shark.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -329,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gaw.AI-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Shark;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -348,7 +348,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gaw.AI-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Shark;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

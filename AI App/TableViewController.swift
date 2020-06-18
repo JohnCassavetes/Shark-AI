@@ -33,7 +33,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.title = "Artificial Intelligence"
+        navigationItem.title = "Shark AI"
         navigationController?.navigationBar.prefersLargeTitles = true
         
         tableView.delegate = self
@@ -49,7 +49,7 @@ class TableViewController: UITableViewController {
     // MARK: - Table view data source
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Must be string"
+        return "Click one"
       
     }
 

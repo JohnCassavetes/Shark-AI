@@ -10,7 +10,7 @@
         <!--Table View Controller-->
         <scene sceneID="Efp-Bj-rUz">
             <objects>
-                <tableViewController id="pun-Zn-dhC" customClass="TableViewController" customModule="AI_App" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="pun-Zn-dhC" customClass="TableViewController" customModule="Shark" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="KPE-IG-cjp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,15 +39,15 @@
             </objects>
             <point key="canvasLocation" x="86.956521739130437" y="122.54464285714285"/>
         </scene>
-        <!--Drawing View Controller-->
+        <!--Draw-->
         <scene sceneID="dqf-43-ZL5">
             <objects>
-                <viewController id="Ehf-6u-oWG" customClass="DrawingViewController" customModule="AI_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ehf-6u-oWG" customClass="DrawingViewController" customModule="Shark" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Swa-a9-3qa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xWR-Qe-njR" customClass="CanvasView" customModule="AI_App" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xWR-Qe-njR" customClass="CanvasView" customModule="Shark" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="401" width="414" height="495"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -71,8 +71,8 @@
                                     <action selector="recognizeDigit:" destination="Ehf-6u-oWG" eventType="touchUpInside" id="wLi-xk-g2b"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disclaimer: Only available to draw from 1-9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKJ-2p-N3U">
-                                <rect key="frame" x="44" y="286" width="327" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disclaimer: Only available to draw from 0-9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKJ-2p-N3U">
+                                <rect key="frame" x="40" y="291" width="335" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -80,25 +80,25 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="QKJ-2p-N3U" firstAttribute="top" secondItem="j7C-Fh-KBJ" secondAttribute="bottom" constant="56" id="0BW-Nj-7GA"/>
+                            <constraint firstItem="QKJ-2p-N3U" firstAttribute="top" secondItem="j7C-Fh-KBJ" secondAttribute="bottom" constant="61" id="0BW-Nj-7GA"/>
                             <constraint firstItem="WOV-O5-WQM" firstAttribute="leading" secondItem="Pyu-Bv-UTD" secondAttribute="leading" constant="25" id="3oi-Y1-zYr"/>
                             <constraint firstItem="WOV-O5-WQM" firstAttribute="top" secondItem="Pyu-Bv-UTD" secondAttribute="top" constant="275" id="5sf-tN-irN"/>
                             <constraint firstItem="ELk-Le-KX3" firstAttribute="top" secondItem="Pyu-Bv-UTD" secondAttribute="top" constant="275" id="6FC-4w-Pdr"/>
                             <constraint firstItem="j7C-Fh-KBJ" firstAttribute="leading" secondItem="Pyu-Bv-UTD" secondAttribute="leading" constant="139" id="7Ao-9W-STv"/>
                             <constraint firstItem="xWR-Qe-njR" firstAttribute="trailing" secondItem="Pyu-Bv-UTD" secondAttribute="trailing" id="HHi-Qe-qz9"/>
                             <constraint firstItem="j7C-Fh-KBJ" firstAttribute="top" secondItem="Pyu-Bv-UTD" secondAttribute="top" constant="82" id="I0g-XV-Ayf"/>
-                            <constraint firstItem="QKJ-2p-N3U" firstAttribute="leading" secondItem="Pyu-Bv-UTD" secondAttribute="leading" constant="44" id="LKD-YG-rNK"/>
+                            <constraint firstItem="QKJ-2p-N3U" firstAttribute="leading" secondItem="Pyu-Bv-UTD" secondAttribute="leading" constant="40" id="LKD-YG-rNK"/>
                             <constraint firstItem="Pyu-Bv-UTD" firstAttribute="trailing" secondItem="j7C-Fh-KBJ" secondAttribute="trailing" constant="139" id="P7Z-AK-YGy"/>
                             <constraint firstItem="Pyu-Bv-UTD" firstAttribute="trailing" secondItem="ELk-Le-KX3" secondAttribute="trailing" constant="20" id="b5l-Uy-inU"/>
                             <constraint firstItem="xWR-Qe-njR" firstAttribute="leading" secondItem="Pyu-Bv-UTD" secondAttribute="leading" id="bgK-aG-7mE"/>
-                            <constraint firstItem="Pyu-Bv-UTD" firstAttribute="trailing" secondItem="QKJ-2p-N3U" secondAttribute="trailing" constant="43" id="ckW-Uc-UeP"/>
+                            <constraint firstItem="Pyu-Bv-UTD" firstAttribute="trailing" secondItem="QKJ-2p-N3U" secondAttribute="trailing" constant="39" id="ckW-Uc-UeP"/>
                             <constraint firstItem="ELk-Le-KX3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WOV-O5-WQM" secondAttribute="trailing" constant="8" symbolic="YES" id="qPw-jc-xZK"/>
                             <constraint firstItem="xWR-Qe-njR" firstAttribute="top" secondItem="WOV-O5-WQM" secondAttribute="bottom" constant="8" id="tn9-EC-fdu"/>
                             <constraint firstAttribute="bottom" secondItem="xWR-Qe-njR" secondAttribute="bottom" id="w1B-r4-9fg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Pyu-Bv-UTD"/>
                     </view>
-                    <navigationItem key="navigationItem" id="2L4-xh-D2Z"/>
+                    <navigationItem key="navigationItem" title="Draw" largeTitleDisplayMode="always" id="2L4-xh-D2Z"/>
                     <connections>
                         <outlet property="canvasView" destination="xWR-Qe-njR" id="fvv-Kn-xjJ"/>
                         <outlet property="digitLabel" destination="j7C-Fh-KBJ" id="4kQ-g9-oNW"/>
@@ -111,7 +111,7 @@
         <!--Camera View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="AICameraViewController" customModule="AI_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AICameraViewController" customModule="Shark" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
