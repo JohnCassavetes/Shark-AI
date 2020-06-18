@@ -1,6 +1,14 @@
 # The name is Shark. 
 
-📱 🦈 2 AI App in one go. 
+> 📱 🦈 2 AI App in one go. 
+
+[![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Downloads Stats][npm-downloads]][npm-url]
+
+![](images/sharkPoster.jpg)
+
+## features
 - 🌇 Image Detection (Resnet50) 
 
 - ✏️ Number Recognition (MNISTClassifier)
