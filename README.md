@@ -2,16 +2,14 @@
 
 > 📱 🦈 2 AI App in one go. 
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 
 ![](images/sharkPoster.jpg)
 
-## features
+## Features
 - 🌇 Image Detection (Resnet50) 
-
+![](images/recognizer.gif)
 - ✏️ Number Recognition (MNISTClassifier)
+![](images/draw.gif)
 
 ## Installation
 The only thing you need to know is that, you don't need to install any .mlmodels. But if you do, go ahead and check out [Apple's Machine Learning Models](https://developer.apple.com/machine-learning/models/).
