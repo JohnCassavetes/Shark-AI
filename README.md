@@ -1,10 +1,10 @@
 # The name is Shark. 
 
-> 2 AI App in 1 go. 
+> 📱 🦈 2 AI App in 1 go. 
 
 [![Build Status](https://img.shields.io/travis/npm/cli/latest.svg)](https://travis-ci.org/npm/cli)
 
-📱 🦈 Usually AI apps only have one function. This app has 2.
+Usually AI apps only have one function. This app has 2.
 
 ![](images/sharkPoster.jpg)
 
