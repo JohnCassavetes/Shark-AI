@@ -3,6 +3,7 @@
 > 📱 🦈 2 AI App in 1 go. 
 
 [![Build Status](https://img.shields.io/travis/npm/cli/latest.svg)](https://travis-ci.org/npm/cli)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 ![](images/sharkPoster.jpg)
 
