@@ -44,6 +44,6 @@ Please make sure to update tests as appropriate. 👌
 ## Author
 Jeremy Gautama
 
-## Comtact
+## Contact
 👤 If you have any questions, feel free to contact me through my email - jgautama7@gmail.com
 
