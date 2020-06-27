@@ -1,6 +1,6 @@
 # The name is Shark. 
 
-> 📱 🦈 2 AI App in 1 go. 
+> 📱 🦈 2 AI App in 1 go.
 
 [![Swift Version](https://img.shields.io/badge/Swift-5-orange.svg)]()
 [![Build Status](https://img.shields.io/travis/npm/cli/latest.svg)](https://travis-ci.org/npm/cli)
