@@ -20,7 +20,7 @@
 ## Installation
 The only thing you need to know is that, you don't need to install any .mlmodels. But if you do, go ahead and check out [Apple's Machine Learning Models](https://developer.apple.com/machine-learning/models/).
 ```bash
-We use Resnet50 and MNISTClassifier
+Use Resnet50 and MNISTClassifier
 ```
 
 ## Contributing 
