@@ -28,7 +28,7 @@ Use Resnet50 and MNISTClassifier
 
 Please make sure to update tests as appropriate. 👌
 
-1. Fork it (<https://github.com/jeremygautama/IOS-Ai/fork>)
+1. Fork it (<https://github.com/jeremygautama/Shark-AI/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
@@ -40,7 +40,7 @@ Please make sure to update tests as appropriate. 👌
 📢 Help spread the word!!!
 
 ## License
-📄✔️ The best license. [MIT](https://github.com/jeremygautama/IOS-Ai/blob/master/LICENSE.md) License.
+📄✔️ The best license. [MIT](https://github.com/jeremygautama/Shark-AI/blob/master/LICENSE.md) License.
 
 ## Author
 👤 Jeremy Gautama
