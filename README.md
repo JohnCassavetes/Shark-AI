@@ -42,7 +42,5 @@ Please make sure to update tests as appropriate. 👌
 ## License
 📄✔️ The best license. [MIT](https://github.com/JohnCassavetes/Shark-AI/blob/master/LICENSE.md) License.
 
-## Author
-👤 Jeremy Gautama
 
 
